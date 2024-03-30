@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+main{
+    border: 1px solid green;
+    height: 100%;
+}
+header{
+    border: 1px solid red ;
+    background-color: gray;
+    height: 20%;
+}
+
+footer{
+    border: 1px solid black;
+    height: 55%;
+}
+.head{
+    height: 70%;
+}
+.headericon{
+    float: right;
+    margin-top: 1%;
+    width: 30% ;
+}
+.icon{
+    margin-top: 2%;
+    float: left;
+   padding: 2%;
+   font-size:medium;
+}
+.headerlogo{
+    float: left;
+    width: 20%;
+    height: 70%;
+}
+.headerlogo img{
+    height: 100%;
+}
+.hide{
+    color: aqua;
+    float: left;
+    height: 30%;
+    font-size: larger;
+}
+.body{
+    border: 1px solid pink;
+    height: 25%;
+}
+.img{
+    height: 80%;
+    width: 20%;
+    float: left;
+}
+.para{
+    width: 75%;
+    font-size: medium;
+    color:black ;
+}
+.img img{
+    height: 90%;
+    width: 100%;
+}
+.para{
+    height: 10%;
+    color: black;
+    float: right;
+    font-size: xx-large;
+}
+.read{
+    height: 10%;
+    float: left;
+    color: black;
+    font-size: small;
+}
+.left{
+    width: 65%;
+    float: left;
+    height: 100%;
+    border: 1px solid black;
+}
+.right{
+    float: right;
+    height: 100%;
+   width: 35%;
+    border: 1px solid gray;
+}
+.left1{
+    color: black;
+}
+.right1{
+    color: black;
+    height: 10%;
+}
+.left2{
+    color: black;
+}
+.left3{
+    color: black;
+    font-size: large;
+}
+.left4{
+    color: black;
+    font-size: large;
+}
+.left5{
+    color: black;
+    font-size: large;
+}
+.left6{
+    color: black;
+    font-size: large;
+}
+.right2{
+    height: 30% ;
+    width: 100%;
+}
+.right21{
+   float: left;
+   height: 100%;
+   width: 25%;
+}
+.right21 img{
+    height: 80%;
+    width: 70%;
+}
+.right22{
+  float: right;
+    width: 75%;
+    color: black;
+}
+.right3{
+    height: 30% ;
+    width: 100%;
+}
+.right31{
+   float: left;
+   height: 100%;
+   width: 25%;
+}
+.right31 img{
+    height: 80%;
+    width: 70%;
+}
+.right32{
+  float: right;
+    width: 75%;
+    color: black;
+}
+.right4{
+    height: 30% ;
+    width: 100%;
+}
+.right41{
+   float: left;
+   height: 100%;
+   width: 25%;
+}
+.right41 img{
+    height: 80%;
+    width: 70%;
+}
+.right42{
+  float: right;
+    width: 75%;
+    color: black;
+}

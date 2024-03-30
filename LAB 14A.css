@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+.whole{
+    height: 100vh;
+    width: 100%;
+
+}
+header{
+     height: 10%;
+     width: 100%;
+     background-color: black;
+     color: white;
+}
+main{
+    height: 77%;
+    width: 100%;
+    background-color: darkgrey;
+    padding: 0.1%;
+}
+footer{
+    height: 13%;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 0.1%;
+}
+.head div{
+    float: left;
+    margin: 3%;
+    font-size: larger;
+}
+.head{
+    margin-left: 35%;
+    margin-top: 1%;
+}
+.input p{
+    margin-top: 0.8%;
+    margin-left: 35%;
+    font-size: larger;
+    color: black;
+}
+.input button{
+    margin-left: 37%;
+    font-size:medium ;
+    background-color: orange;
+    color: black;
+}
+.script{
+    color: black;
+    margin-left: 35%;
+}
+.midleft{
+    float: left;
+    width: 20%;
+    margin-left: 12%;
+}
+.midright{
+    float: right;
+    width: 80%;
+    position: absolute;
+    
+}
+.midright1{
+    margin-left: 60%;
+    font-size: xx-larger;
+    padding-top: 2%;
+    position: relative;
+}
+.midright2{
+    margin-left: 60%;
+    font-size: xx-larger;
+    padding-top: 2%;
+    position: relative;
+}
+.midright3{
+    margin-left: 60%;
+    font-size: xx-larger;
+   padding-top: 2%;
+    position: relative;
+}
+.midright4 button{
+    margin-left: 60%;
+    margin-top: 2%;
+    position: relative;
+    font-size: larger;
+    background-color: orange;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6A</title>
+    <style type="text/css">
+    *{
+        box-sizing:border-box;
+        padding:1%;
+    }
+    .page{
+        background-color:rgb(0, 229, 255);
+        height:65%;
+    }
+    .content{
+        background-color: rgb(207, 140, 6);
+        height:80%;    
+    }
+    .entry1{
+        float:left;
+        width:60%
+    }
+    .entry{
+        background-color: black;
+        width:100%;
+        height:10%;
+        color:white;
+        margin-bottom: 10px;
+    }
+    .sidebar{
+        background-color: black;
+        width:30%;
+        height:60%;
+        color:white;
+        float:right;
+    }
+    @media (max-width:450px){
+        .entry1{
+          width: 100%;
+        }
+        .sidebar{
+            width: 100%;
+            height: 40%;
+        }
+    }
+</style>
+</head>
+<body>
+    <div style="height:1000px">
+    <div class="page" >
+        Page
+        <header style="background-color: rgb(104, 8, 61);color: white;">Header</header>
+        <div class="content">
+            <div>Content</div>
+            <div class="entry1">
+            <div class="entry">Entry</div>
+            <div class="entry">Entry</div>
+            <div class="entry">Entry</div>
+            </div>
+            <div class="sidebar">Sidebar</div>    
+        </div>
+        <footer style="background-color: blue;color:white">&copyDarshan University-Rajkot</footer>
+    </div>
+    </div>
+</body>
+</html>
